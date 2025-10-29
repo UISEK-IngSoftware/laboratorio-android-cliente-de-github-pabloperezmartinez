@@ -11,7 +11,6 @@
         android:orientation="horizontal"
         android:padding="16dp"
         >
-
         <ImageView
             android:id="@+id/repo_owner_image"
             android:layout_width="100dp"
@@ -19,27 +18,22 @@
             android:src="@drawable/ic_launcher_foreground"
             android:layout_gravity="center"
             />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-
+                android:orientation="horizontal">
                 <TextView
-                    android:layout_width="110dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="@string/repo_name"
                     android:padding="8dp"
                     android:textStyle="bold"
                     />
-
                 <TextView
                     android:id="@+id/repo_name"
                     android:layout_width="match_parent"
@@ -48,20 +42,17 @@
                     android:padding="8dp"
                     />
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <TextView
-                    android:layout_width="110dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="@string/repo_description"
-                    android:textStyle="bold"
                     android:padding="8dp"
+                    android:textStyle="bold"
                     />
-
                 <TextView
                     android:id="@+id/repo_description"
                     android:layout_width="match_parent"
@@ -70,25 +61,22 @@
                     android:padding="8dp"
                     />
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <TextView
-                    android:layout_width="110dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="@string/repo_lang"
-                    android:textStyle="bold"
                     android:padding="8dp"
+                    android:textStyle="bold"
                     />
-
                 <TextView
-                    android:id="@+id/repo_language"
+                    android:id="@+id/repo_lang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/test_text"
+                    android:text="@string/test_lang"
                     android:padding="8dp"
                     />
             </LinearLayout>
