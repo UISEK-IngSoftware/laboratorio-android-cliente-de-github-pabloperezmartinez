@@ -4,8 +4,7 @@ import ec.edu.uisek.githubclient.models.Repo
 import retrofit2.Call
 import retrofit2.http.GET
 
-interface GithubApiService {
-    // api.github.com/user/repos
+interface GitHubApiService {
     @GET("user/repos")
-    fun getRepos() : Call<List<Repo>>
+    fun getRepos(): Call<List<Repo>>
 }
