@@ -79,7 +79,7 @@ object RetrofitClient {
      * Instancia del servicio de la API de GitHub
      * Se crea de forma lazy (solo cuando se necesita por primera vez)
      */
-    val gitHubApiService: GithubApiService by lazy {
-        retrofit.create(GithubApiService::class.java)
+    val gitHubApiService: GitHubApiService by lazy {
+        retrofit.create(GitHubApiService::class.java)
     }
 }
